@@ -24,7 +24,7 @@ const Home = () => {
 
 const Wrapper = styled.div`
   --background-color: hsl(204deg 16% 8%);
-  --h1-font-size: 15vw;
+  --h1-font-size: 13vw;
   --linear-gradient: linear-gradient(45deg, #f3ec78, #af4261);
 
   font-family: "Exo", sans-serif;
@@ -34,10 +34,12 @@ const Wrapper = styled.div`
   position: relative;
 `
 const Header = styled.header`
-  width: 100%;
   min-height: 25vh;
+  position: relative;
+  overflow: hidden;
 `
 const H1 = styled.h1`
+  width: 100%;
   font-family: 'Nabla', cursive;
   font-display: block;
   font-size: var(--h1-font-size);
