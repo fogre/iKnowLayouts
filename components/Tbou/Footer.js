@@ -18,7 +18,7 @@ const Footer = () => (
         </Article>
         <Article>
           <h4>CONTACT</h4>
-          <PSmall>Use your multiversal telepahty kit to contact our customer service</PSmall>
+          <PSmall>Please use your multiversal telepathy kit to contact our customer service</PSmall>
         </Article>
         <Article>
           <h4>IPSUM PIPSUM</h4>
